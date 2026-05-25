@@ -1,0 +1,141 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#section1{
+    /* border: 2px solid green; */
+    height: 115px;
+    /* display: grid; */
+    /* grid-template-rows: repeat(3, 1fr); */
+    /* display: grid; */
+    /* grid-template-rows: repeat(2, 1fr); */
+    /* grid-template-columns: repeat(1, 1fr); */
+
+}
+#section1>#top{
+    /* border: 2px solid red; */
+    height: 22px;
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+    /* height: 50px; */
+    background: #F17F00;
+    color: white;
+}
+
+/* in section 1 top done */
+#section1>#middle{
+    
+    height: 80px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    background: linear-gradient(#f0a139c4, #fffffffd);
+    
+    
+}
+#section1>#middle>img{
+    height: 60px;
+    width: 50px;
+    /* border: 2px solid yellow; */
+}
+#section1>#middle>#inp_1{
+    font-size: 15px;
+    padding-left: 25px;
+    height: 40px;
+    width: 300px;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(to right, #ff7f1e, #ffd6d6);
+    
+   
+}
+#inp_search{
+    height: 40px;
+    width: 300px;
+    border-radius: 8px;
+    /* border: 2px solid red; */
+    position: relative;
+    /* border: #F17F00; */
+
+   
+}
+#inp2{
+    border: none;
+    
+}
+#inp_search i{
+    position: absolute;
+    right: 10px;
+    padding: 10px;
+}
+
+#inp_search input{
+    border-radius: 8px;
+    border:1px solid #F17F00;
+    width: 100%;
+    height: 100%;
+    padding-left: 25px;
+    font-size: 16px;
+
+}
+#section1>#middle>.nav{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid green; */
+    width: 500px;
+
+}
+.nav>div{
+    /* border: 2px solid orange; */
+
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+.item i{
+    font-size: 22px;  
+   
+}
+#d1{
+    padding-left: 30px;
+}
+.item a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;  
+}
+.item:hover{
+    color: #ff7f1e;
+}
+
+
+/* section 2 middle done */
+/* top3 section1 now css starts */
+#section2{
+    /* border: 2px solid green; */
+    height: 25px;
+    padding: 5px 120px 5px 120px;
+}
+#section2>#top3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#top3>a{
+    text-decoration: none;
+    color: black;
+}
+#top3>a:hover{
+   color: #ff7f1e;
+}
